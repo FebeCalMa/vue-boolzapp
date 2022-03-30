@@ -5,13 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <script src="js/script.js" type="text/javascript" defer></script>
     <title>BOOLZAPP</title>
   </head>
   <body>
     <div class="container flex">
-      <div class="contacts-container"></div>
+      <div class="contacts-container">
+        <div class="user bg-primary">
+          <div class="user-info">
+            <img class="avatar" src="img/avatar_io.jpg" alt="Sofia" />
+            Sofia
+          </div>
+          <div class="user-actions">
+            <i class="fas fa-circle-notch icon-size"></i>
+            <i class="fas fa-comment-alt icon-size"></i>
+            <i class="fas fa-ellipsis-v icon-size"></i>
+          </div>
+        </div>
+        <div class="notifications"></div>
+        <div class="search-contacts"></div>
+        <div class="contacts-list"></div>
+      </div>
       <div class="chat-container"></div>
     </div>
   </body>

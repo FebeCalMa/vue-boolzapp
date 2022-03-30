@@ -1,3 +1,4 @@
+/* GENERICS */
 * {
   box-sizing: border-box;
   margin: 0px;
@@ -8,6 +9,12 @@ body {
   font-family: sans-serif;
 }
 
+/* UTILITIES */
+.bg-primary {
+  background-color: #eaeaea;
+}
+
+/* CONTENT */
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -19,8 +26,28 @@ body {
 
 .contacts-container {
   background-color: aqua;
+  width: 34%;
+  height: 100vh;
 }
 
 .chat-container {
   background-color: red;
+  width: 66%;
+  height: 100vh;
+}
+
+.avatar {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  justify-content: space-between;
+}
+
+.user-actions {
+  color: #b1b1b1;
 }
