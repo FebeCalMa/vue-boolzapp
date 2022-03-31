@@ -1,6 +1,6 @@
-console.log("JS OK!");
+console.log('JS OK vue!');
 
-contacts: [
+const contacts: [
   {
     name: "Michele",
     avatar: "_1",

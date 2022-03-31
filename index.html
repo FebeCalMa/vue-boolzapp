@@ -18,8 +18,10 @@
   </head>
   <body>
     <div class="container flex">
+      <!-- CONTAINER USER INFO + CONTACTS -->
       <div class="contacts-container">
-        <div class="user bg-primary">
+        <!-- USER INFO -->
+        <div class="user bg-primary p-10px">
           <div class="user-info">
             <img class="avatar" src="img/avatar_io.jpg" alt="Sofia" />
             Sofia
@@ -30,10 +32,110 @@
             <i class="fas fa-ellipsis-v icon-size"></i>
           </div>
         </div>
-        <div class="notifications"></div>
-        <div class="search-contacts"></div>
-        <div class="contacts-list"></div>
+
+        <!-- NOTIFICATIONS -->
+        <div class="notifications p-15px">
+          <div class="circle-icon">
+            <i class="fas fa-circle-notch icon-size"></i>
+          </div>
+          <div class="notification-message">
+            <p>Ricevi Messagi</p>
+            <a href="#">Attiva Notifiche</a>
+          </div>
+        </div>
+
+        <!-- SEARCH CONTACT -->
+        <div class="search-contacts bg-semiwhite p-10px">
+          <i class="fas fa-circle-notch icon-size"></i>
+          <input type="text" placeholder="Cerca o inizia una nuova chat" />
+        </div>
+
+        <!-- CONTACT LIST -->
+        <div class="contacts-list">
+          <!-- CONTACT ITEM -->
+          <div class="contact-item p-15px bg-semiwhite">
+            <div class="user-info">
+              <img src="img/avatar_1.jpg" alt="Sofia" class="avatar" />
+              <div class="info">
+                <strong>Michele</strong>
+                <p>Ultimo messaggio</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-item p-15px bg-semiwhite">
+            <div class="user-info">
+              <img src="img/avatar_2.jpg" alt="Sofia" class="avatar" />
+              <div class="info">
+                <strong>Fabio</strong>
+                <p>Ultimo messaggio</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-item p-15px bg-semiwhite">
+            <div class="user-info">
+              <img src="img/avatar_3.jpg" alt="Sofia" class="avatar" />
+              <div class="info">
+                <strong>Samuele</strong>
+                <p>Ultimo messaggio</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-item p-15px bg-semiwhite">
+            <div class="user-info">
+              <img src="img/avatar_4.jpg" alt="Sofia" class="avatar" />
+              <div class="info">
+                <strong>Alessandro B.</strong>
+                <p>Ultimo messaggio</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-item p-15px bg-semiwhite">
+            <div class="user-info">
+              <img src="img/avatar_5.jpg" alt="Sofia" class="avatar" />
+              <div class="info">
+                <strong>Alessandro L.</strong>
+                <p>Ultimo messaggio</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-item p-15px bg-semiwhite">
+            <div class="user-info">
+              <img src="img/avatar_6.jpg" alt="Sofia" class="avatar" />
+              <div class="info">
+                <strong>Claudia</strong>
+                <p>Ultimo messaggio</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-item p-15px bg-semiwhite">
+            <div class="user-info">
+              <img src="img/avatar_7.jpg" alt="Sofia" class="avatar" />
+              <div class="info">
+                <strong>Federico</strong>
+                <p>Ultimo messaggio</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-item p-15px bg-semiwhite">
+            <div class="user-info">
+              <img src="img/avatar_8.jpg" alt="Sofia" class="avatar" />
+              <div class="info">
+                <strong>Davide</strong>
+                <p>Ultimo messaggio</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+
+      <!-- SELECTED CONTACT CHAT -->
       <div class="chat-container"></div>
     </div>
   </body>

@@ -14,18 +14,29 @@ body {
   background-color: #eaeaea;
 }
 
-/* CONTENT */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
+.bg-semiwhite {
+  background-color: #fafafa;
+}
+
+.p-10px {
+  padding: 5px 10px;
+}
+
+.p-15px {
+  padding: 5px 15px;
 }
 
 .flex {
   display: flex;
 }
 
+/* CONTENT */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .contacts-container {
-  background-color: aqua;
   width: 34%;
   height: 100vh;
 }
@@ -36,6 +47,8 @@ body {
   height: 100vh;
 }
 
+/* USER INFO */
+
 .avatar {
   width: 50px;
   border-radius: 50%;
@@ -44,10 +57,53 @@ body {
 .user {
   display: flex;
   align-items: center;
-  padding: 5px;
   justify-content: space-between;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
 }
 
 .user-actions {
   color: #b1b1b1;
+}
+
+.user-actions i {
+  margin-right: 5px;
+}
+
+/* NOTIFICATION */
+.notifications {
+  background-color: #8edafc;
+  display: flex;
+}
+
+.circle-icon {
+  background-color: white;
+  border: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding-top: 15px;
+  margin-right: 10px;
+}
+
+.notification-message a {
+  color: black;
+}
+
+/* SEARCH CONTACTS */
+
+.search-contacts input {
+  font-size: 18px;
+}
+
+.contact-item {
+  border-bottom: #f6f6f6;
+  background-color: white;
+}
+.contact-item .info {
+  display: flex;
+  flex-direction: column;
 }
